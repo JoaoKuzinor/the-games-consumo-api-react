@@ -1,0 +1,46 @@
+/* Início conteúdo Cadastro */
+.createContent {
+  width: 40%;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px 0 var(--primary-alpha);
+  border: solid 1px var(--primary-color);
+}
+/* Fim conteúdo Cadastro */
+
+/* RESPONSIVIDADE */
+@media (max-width: 1200px) {
+  .createContent {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .createContent {
+    width: 85%;
+  }
+}
+
+.inputField {
+  width: 100%; /* Faz o input ocupar toda a largura do container */
+  max-width: 800px; /* Define uma largura máxima */
+  padding: 0.8rem; /* Adiciona espaçamento interno */
+  margin-bottom: 1rem; /* Espaçamento entre os inputs */
+  border: 1px solid var(--primary-color); /* Borda com a cor primária */
+  border-radius: 0.5rem; /* Borda arredondada */
+  font-size: 1rem; /* Tamanho da fonte */
+  box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+  .inputField {
+    width: 100%; /* Garante que os inputs ocupem 100% da largura no mobile */
+  }
+}
+
+/* FIM RESPONSIVIDADE */
